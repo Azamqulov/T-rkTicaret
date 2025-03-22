@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Türkiye'nin lider ticari danışmanlık şirketi. İş geliştirme, stratejik planlama, finansal analiz ve pazarlama çözümleri sunuyoruz.">
+    <meta name="keywords" content="ticari danışmanlık, iş geliştirme, stratejik planlama, finansal analiz, pazarlama çözümleri, Türkiye ticaret, işletme danışmanlığı, kurumsal çözümler">
+    <title>TürkTicaret | Profesyonel İş Danışmanlık Hizmetleri</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/favicon.png">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Cookie Consent -->
+    <div id="cookieConsent" class="cookie-consent">
+        <div class="container">
+            <div class="cookie-content">
+                <p>Bu web sitesi, size en iyi deneyimi sunmak için çerezleri kullanmaktadır. Sitemizi kullanmaya devam ederek, çerez kullanımımızı kabul etmiş olursunuz.</p>
+                <div class="cookie-buttons">
+                    <button id="cookieAccept" class="btn btn-primary">Kabul Et</button>
+                    <button id="cookieReject" class="btn btn-outline">Reddet</button>
+                    <a href="cerez-politikasi.html" id="cookieSettings" class="cookie-more">Daha Fazla Bilgi</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container">
+            <div class="header-inner">
+                <div class="logo">
+                    <a href="index.html">
+                        <span class="logo-text">Türk<span>Ticaret</span></span>
+                    </a>
+                </div>
+                <nav class="main-nav">
+                    <ul class="nav-menu">
+                        <li class="nav-item"><a href="#anasayfa" class="nav-link active">Ana Sayfa</a></li>
+                        <li class="nav-item"><a href="#hizmetler" class="nav-link">Hizmetlerimiz</a></li>
+                        <li class="nav-item"><a href="#hakkimizda" class="nav-link">Hakkımızda</a></li>
+                        <li class="nav-item"><a href="#referanslar" class="nav-link">Referanslar</a></li>
+                        <li class="nav-item"><a href="#iletisim" class="nav-link">İletişim</a></li>
+                    </ul>
+                </nav>
+                <div class="header-right">
+                
+                    <a href="#iletisim" class="btn btn-primary">Ücretsiz Danışmanlık</a>
+                    <button class="menu-toggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <div class="mobile-menu-header">
+            <div class="logo">
+                <a href="index.html">
+                    <span class="logo-icon"><img src="img/logo.png" alt="TürkTicaret Logo"></span>
+                    <span class="logo-text">Türk<span>Ticaret</span></span>
+                </a>
+            </div>
+            <button class="mobile-menu-close">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <nav class="mobile-nav">
+            <ul class="mobile-nav-menu">
+                <li class="mobile-nav-item"><a href="#anasayfa" class="mobile-nav-link">Ana Sayfa</a></li>
+                <li class="mobile-nav-item"><a href="#hizmetler" class="mobile-nav-link">Hizmetlerimiz</a></li>
+                <li class="mobile-nav-item"><a href="#hakkimizda" class="mobile-nav-link">Hakkımızda</a></li>
+                <li class="mobile-nav-item"><a href="#referanslar" class="mobile-nav-link">Referanslar</a></li>
+                <li class="mobile-nav-item"><a href="#iletisim" class="mobile-nav-link">İletişim</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-menu-footer">
+            <div class="mobile-menu-contact">
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <span>+90 (212) 456 78 90</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>info@turkticaret.com</span>
+                </div>
+            </div>
+            <div class="mobile-menu-social">
+                <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="anasayfa" class="hero">
+        <div id="particles-js" class="particles"></div>
+        <div class="hero-slider">
+            <div class="hero-slide active">
+                <div class="hero-content">
+                    <div class="container">
+                        <div class="hero-content-inner">
+                            <span class="hero-tag">Türkiye'nin Lider Ticari Danışmanlık Şirketi</span>
+                            <h1 class="hero-title">İşletmenizi <span>Geleceğe</span> Taşıyacak Stratejik Çözümler</h1>
+                            <p class="hero-description">İş geliştirme, stratejik planlama, finansal analiz ve pazarlama çözümleri ile işletmenizin büyümesine katkıda bulunuyoruz.</p>
+                            <div class="hero-buttons">
+                                <a href="#hizmetler" class="btn btn-primary">Hizmetlerimiz</a>
+                                <a href="#iletisim" class="btn-with-icon">
+                                    <span>Hemen Bize Ulaşın</span>
+                                    <span class="btn-icon-circle"><i class="fas fa-arrow-right"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+     
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="feature-title">İş Geliştirme</h3>
+                    <p class="feature-description">İşletmenizin büyümesi için stratejik iş geliştirme planları ve uygulamaları sunuyoruz.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3 class="feature-title">Stratejik Planlama</h3>
+                    <p class="feature-description">Uzun vadeli başarı için kapsamlı stratejik planlama ve yol haritası oluşturuyoruz.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3 class="feature-title">Finansal Analiz</h3>
+                    <p class="feature-description">Detaylı finansal analiz ve raporlama ile işletmenizin mali durumunu optimize ediyoruz.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <h3 class="feature-title">Pazarlama Çözümleri</h3>
+                    <p class="feature-description">Etkili pazarlama stratejileri ile markanızın bilinirliğini ve satışlarınızı artırıyoruz.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="hizmetler" class="services section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Hizmetlerimiz</span>
+                <h2 class="section-title">Profesyonel Çözümler</h2>
+                <p class="section-description">İşletmenizin ihtiyaçlarına özel, kapsamlı ve etkili hizmetler sunuyoruz.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3 class="service-title">Kurumsal Danışmanlık</h3>
+                    <p class="service-description">İşletmenizin kurumsal yapısını güçlendirmek, yönetim süreçlerini optimize etmek ve organizasyonel verimliliği artırmak için profesyonel danışmanlık hizmetleri sunuyoruz.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Organizasyonel Yapılandırma</li>
+                        <li><i class="fas fa-check"></i> Süreç Optimizasyonu</li>
+                        <li><i class="fas fa-check"></i> Performans Yönetimi</li>
+                        <li><i class="fas fa-check"></i> Kurumsal Kültür Geliştirme</li>
+                    </ul>
+                    <a href="#" class="service-link">Detaylı Bilgi <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-pie"></i>
+                    </div>
+                    <h3 class="service-title">Stratejik İş Planlaması</h3>
+                    <p class="service-description">İşletmenizin uzun vadeli hedeflerine ulaşması için kapsamlı stratejik planlar geliştiriyor, pazar analizleri yapıyor ve rekabet avantajı sağlayacak stratejiler oluşturuyoruz.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Pazar Analizi ve Araştırması</li>
+                        <li><i class="fas fa-check"></i> Rekabet Stratejileri</li>
+                        <li><i class="fas fa-check"></i> Büyüme Planlaması</li>
+                        <li><i class="fas fa-check"></i> Risk Yönetimi</li>
+                    </ul>
+                    <a href="#" class="service-link">Detaylı Bilgi <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-coins"></i>
+                    </div>
+                    <h3 class="service-title">Finansal Danışmanlık</h3>
+                    <p class="service-description">İşletmenizin finansal sağlığını değerlendiriyor, mali performansını artıracak stratejiler geliştiriyor ve finansal sürdürülebilirlik için çözümler sunuyoruz.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Finansal Analiz ve Raporlama</li>
+                        <li><i class="fas fa-check"></i> Bütçe Planlama ve Yönetimi</li>
+                        <li><i class="fas fa-check"></i> Yatırım Danışmanlığı</li>
+                        <li><i class="fas fa-check"></i> Maliyet Optimizasyonu</li>
+                    </ul>
+                    <a href="#" class="service-link">Detaylı Bilgi <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3 class="service-title">Pazarlama ve Satış Stratejileri</h3>
+                    <p class="service-description">Markanızın bilinirliğini artırmak, müşteri tabanınızı genişletmek ve satışlarınızı yükseltmek için etkili pazarlama ve satış stratejileri geliştiriyoruz.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Marka Konumlandırma</li>
+                        <li><i class="fas fa-check"></i> Dijital Pazarlama Stratejileri</li>
+                        <li><i class="fas fa-check"></i> Müşteri Deneyimi Tasarımı</li>
+                        <li><i class="fas fa-check"></i> Satış Süreci Optimizasyonu</li>
+                    </ul>
+                    <a href="#" class="service-link">Detaylı Bilgi <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="hakkimizda" class="about section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right">
+                    <img src="https://images.unsplash.com/photo-1629649420958-63171abdd674?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDU2fHx8ZW58MHx8fHx8" alt="TürkTicaret Hakkında">
+                    <div class="about-experience">
+                        <span class="experience-number">15+</span>
+                        <span class="experience-text">Yıllık Deneyim</span>
+                    </div>
+                </div>
+                <div class="about-text" data-aos="fade-left">
+                    <span class="section-subtitle">Hakkımızda</span>
+                    <h2 class="section-title">Türkiye'nin Lider Ticari Danışmanlık Şirketi</h2>
+                    <p class="about-description">TürkTicaret olarak, 2008 yılından bu yana Türkiye'nin önde gelen işletmelerine profesyonel danışmanlık hizmetleri sunuyoruz. Deneyimli ekibimiz ve yenilikçi yaklaşımımız ile işletmelerin büyümesine, rekabet güçlerini artırmalarına ve sürdürülebilir başarı elde etmelerine katkıda bulunuyoruz.</p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number counter" data-target="500">0</span>
+                            <span class="stat-text">Mutlu Müşteri</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number counter" data-target="750">0</span>
+                            <span class="stat-text">Tamamlanan Proje</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number counter" data-target="25">0</span>
+                            <span class="stat-text">Ödül ve Başarı</span>
+                        </div>
+                    </div>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Uzman Ekip</h4>
+                                <p>Alanında uzman ve deneyimli profesyonellerden oluşan ekibimiz</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Kişiselleştirilmiş Çözümler</h4>
+                                <p>İşletmenizin ihtiyaçlarına özel tasarlanmış hizmetler</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Sonuç Odaklı Yaklaşım</h4>
+                                <p>Ölçülebilir sonuçlar ve sürdürülebilir başarı için çalışıyoruz</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#iletisim" class="btn btn-primary">Bizimle Çalışın</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Çalışma Sürecimiz</span>
+                <h2 class="section-title">Nasıl Çalışıyoruz?</h2>
+                <p class="section-description">İşletmenizin başarısı için sistematik ve sonuç odaklı bir süreç izliyoruz.</p>
+            </div>
+            <div class="process-steps">
+                <div class="process-step" data-aos="fade-up" data-aos-delay="100">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Analiz ve Değerlendirme</h3>
+                        <p class="step-description">İşletmenizin mevcut durumunu, güçlü ve zayıf yönlerini, fırsatları ve tehditleri kapsamlı bir şekilde analiz ediyoruz.</p>
+                    </div>
+                </div>
+                <div class="process-step" data-aos="fade-up" data-aos-delay="200">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Strateji Geliştirme</h3>
+                        <p class="step-description">Analiz sonuçlarına dayanarak, işletmenizin hedeflerine ulaşması için özel stratejiler ve eylem planları geliştiriyoruz.</p>
+                    </div>
+                </div>
+                <div class="process-step" data-aos="fade-up" data-aos-delay="300">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Uygulama ve Destek</h3>
+                        <p class="step-description">Geliştirilen stratejilerin uygulanması sürecinde işletmenize rehberlik ediyor ve sürekli destek sağlıyoruz.</p>
+                    </div>
+                </div>
+                <div class="process-step" data-aos="fade-up" data-aos-delay="400">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <h3 class="step-title">İzleme ve Optimizasyon</h3>
+                        <p class="step-description">Uygulanan stratejilerin performansını düzenli olarak izliyor, ölçüyor ve gerektiğinde optimizasyonlar yapıyoruz.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="referanslar" class="testimonials section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Referanslarımız</span>
+                <h2 class="section-title">Müşterilerimiz Ne Diyor?</h2>
+                <p class="section-description">İşletmelerin başarı hikayelerinde pay sahibi olmaktan gurur duyuyoruz.</p>
+            </div>
+            <div class="testimonials-slider" data-aos="fade-up">
+                <div class="testimonials-track">
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p class="testimonial-text">TürkTicaret ile çalışmaya başladıktan sonra işletmemizin finansal performansında önemli bir iyileşme gördük. Profesyonel yaklaşımları ve uzman ekipleri sayesinde, stratejik hedeflerimize çok daha hızlı ulaşıyoruz.</p>
+                            <div class="testimonial-author">
+                                <div class="testimonial-image">
+                                    <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D" alt="Ahmet Yılmaz">
+                                </div>
+                                <div class="testimonial-info">
+                                    <h4 class="testimonial-name">Ahmet Yılmaz</h4>
+                                    <p class="testimonial-position">ABC Teknoloji, CEO</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p class="testimonial-text">Pazarlama stratejilerimizi geliştirmek için TürkTicaret ile çalıştık ve sonuçlar beklentilerimizin ötesinde oldu. Müşteri tabanımız genişledi, marka bilinirliğimiz arttı ve satışlarımızda %40'lık bir artış yaşadık.</p>
+                            <div class="testimonial-author">
+                                <div class="testimonial-image">
+                                    <img src="https://images.unsplash.com/photo-1541271696563-3be2f555fc4e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fHw%3D" alt="Zeynep Kaya">
+                                </div>
+                                <div class="testimonial-info">
+                                    <h4 class="testimonial-name">Zeynep Kaya</h4>
+                                    <p class="testimonial-position">XYZ Mobilya, Pazarlama Direktörü</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p class="testimonial-text">İş geliştirme süreçlerimizi optimize etmek için TürkTicaret'in danışmanlık hizmetlerinden yararlandık. Sundukları çözümler ve stratejik yaklaşımları sayesinde, operasyonel verimliliğimiz arttı ve maliyetlerimiz azaldı.</p>
+                            <div class="testimonial-author">
+                                <div class="testimonial-image">
+                                    <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIwfHx8ZW58MHx8fHx8" alt="Mehmet Demir">
+                                </div>
+                                <div class="testimonial-info">
+                                    <h4 class="testimonial-name">Mehmet Demir</h4>
+                                    <p class="testimonial-position">DEF İnşaat, Genel Müdür</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-controls">
+                    <button class="testimonial-arrow prev"><i class="fas fa-arrow-left"></i></button>
+                    <div class="testimonial-dots"></div>
+                    <button class="testimonial-arrow next"><i class="fas fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta section">
+        <div class="container">
+            <div class="cta-content" data-aos="fade-up">
+                <span class="section-subtitle">İşletmenizi Büyütün</span>
+                <h2 class="cta-title">İşletmenizi Bir Adım Öne Taşımaya Hazır Mısınız?</h2>
+                <p class="cta-description">Profesyonel danışmanlık hizmetlerimiz ile işletmenizin büyümesine ve gelişmesine katkıda bulunalım.</p>
+                <div class="cta-buttons">
+                    <a href="#iletisim" class="btn btn-light">Ücretsiz Danışmanlık</a>
+                    <a href="#hizmetler" class="btn btn-outline-light">Hizmetlerimizi Keşfedin</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="iletisim" class="contact section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">İletişim</span>
+                <h2 class="section-title">Bizimle İletişime Geçin</h2>
+                <p class="section-description">Sorularınız veya projeleriniz için bize ulaşın</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-info-header">
+                        <h3>İletişim Bilgilerimiz</h3>
+                        <p>Aşağıdaki iletişim kanallarından bize ulaşabilir veya formu doldurarak mesaj gönderebilirsiniz.</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-info-text">
+                            <h4>Adres</h4>
+                            <p>Levent Mahallesi, Büyükdere Caddesi No: 123<br>Şişli, İstanbul</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-info-text">
+                            <h4>Telefon</h4>
+                            <p>+90 (212) 456 78 90</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-info-text">
+                            <h4>E-posta</h4>
+                            <p>info@turkticaret.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-info-text">
+                            <h4>Çalışma Saatleri</h4>
+                            <p>Pazartesi - Cuma: 09:00 - 18:00<br>Cumartesi: 10:00 - 14:00</p>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper" data-aos="fade-left">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Adınız Soyadınız</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-posta Adresiniz</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Telefon Numaranız</label>
+                            <input type="tel" id="phone" name="phone" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Hizmet Seçiniz</label>
+                            <select id="service" name="service" class="form-control" required>
+                                <option value="" disabled selected>Hizmet Seçiniz</option>
+                                <option value="kurumsal-danismanlik">Kurumsal Danışmanlık</option>
+                                <option value="stratejik-planlama">Stratejik İş Planlaması</option>
+                                <option value="finansal-danismanlik">Finansal Danışmanlık</option>
+                                <option value="pazarlama-satis">Pazarlama ve Satış Stratejileri</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mesajınız</label>
+                            <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" id="privacy" name="privacy" class="form-check-input" required>
+                            <label for="privacy" class="form-check-label">Kişisel verilerimin işlenmesine izin veriyorum. <a href="gizlilik-politikasi.html">Gizlilik Politikası</a></label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Gönder</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients Section -->
+    <section class="clients section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Müşterilerimiz</span>
+                <h2 class="section-title">Güvenilir İş Ortaklarımız</h2>
+                <p class="section-description">Türkiye'nin önde gelen şirketleri ile çalışıyoruz.</p>
+            </div>
+            <div class="clients-slider" data-aos="fade-up">
+                <div class="client-logo">
+                    <img src="https://media.istockphoto.com/id/1070570254/photo/turkey-flag-on-white-background.jpg?s=2048x2048&w=is&k=20&c=T9w0Xircn2r1OHjxu3cIxMw_glbQIEqGkY-8v42i3F4=" alt="Müşteri Logo">
+                </div>
+                <div class="client-logo">
+                    <img src="https://media.istockphoto.com/id/930385236/vector/turkey-flag-vector-illustration.jpg?s=612x612&w=0&k=20&c=4_fKkeK0FoROSM7nnKnhv3oSS_uGLK3CLEyvKUmnoL0=" alt="Müşteri Logo">
+                </div>
+                <div class="client-logo">
+                    <img src="https://media.istockphoto.com/id/1488668991/vector/grunge-brush-stroke-flag-of-turkey.jpg?s=612x612&w=0&k=20&c=ds8pXJr4gPth72XeWhuWsU5gT1lq_fQIGRJczCXhyAQ=" alt="Müşteri Logo">
+                </div>
+                <div class="client-logo">
+                    <img src="https://media.istockphoto.com/id/1202666221/vector/tunisia-independence-day-20-march-greeting-card-with-tunisian-national-flag-brush-stroke.jpg?s=612x612&w=0&k=20&c=FpfF7VQtTW4RRZCaCyS2RiDZi2uLTFMgmIiBDuLPIvI=" alt="Müşteri Logo">
+                </div>
+                <div class="client-logo">
+                    <img src="https://media.istockphoto.com/id/1147245034/vector/turkey-flag-watercolor-painting-design-country-map-shape-sports-team-and-national-day.jpg?s=612x612&w=0&k=20&c=c9QEWFmMa7TY9k_Qx5uqgHO4rFt4Q1bL6dkhu6QJvfw=" alt="Müşteri Logo">
+                </div>
+                <div class="client-logo">
+                    <img src="https://media.istockphoto.com/id/918039580/vector/flag-of-turkey-grunge.jpg?s=612x612&w=0&k=20&c=PG_aUdy-5KeAYmGCZAPVWAzXt1Lg90rnecDeD6jOqtM=" alt="Müşteri Logo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="index.html">
+                        <span class="logo-text">Türk<span>Ticaret</span></span>
+                    </a>
+                    <p>Profesyonel danışmanlık hizmetleri ile işletmenizi bir adım öne taşıyın.</p>
+            
+                </div>
+                <div class="footer-links">
+                    <h3>Hızlı Bağlantılar</h3>
+                    <ul>
+                        <li><a href="#anasayfa">Ana Sayfa</a></li>
+                        <li><a href="#hizmetler">Hizmetlerimiz</a></li>
+                        <li><a href="#hakkimizda">Hakkımızda</a></li>
+                        <li><a href="#referanslar">Referanslar</a></li>
+                        <li><a href="#iletisim">İletişim</a></li>
+                    </ul>
+                </div>
+                <div class="footer-services">
+                    <h3>Hizmetlerimiz</h3>
+                    <ul>
+                        <li><a href="#">Kurumsal Danışmanlık</a></li>
+                        <li><a href="#">Stratejik İş Planlaması</a></li>
+                        <li><a href="#">Finansal Danışmanlık</a></li>
+                        <li><a href="#">Pazarlama ve Satış Stratejileri</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Bültenimize Abone Olun</h3>
+                    <p>En son haberler ve güncellemeler için bültenimize abone olun.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="E-posta Adresiniz" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 TürkTicaret. Tüm Hakları Saklıdır.</p>
+                <div class="footer-bottom-links">
+                    <a href="gizlilik-politikasi.html">Gizlilik Politikası</a>
+                    <a href="cerez-politikasi.html">Çerez Politikası</a>
+                    <a href="kullanim-kosullari.html">Kullanım Koşulları</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
